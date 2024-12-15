@@ -2,17 +2,20 @@ PROJECT OVERVIEW
 
 The system exists to support individuals in understanding and improving their emotional well-being by tracking key daily activities like sleep, exercise, and meditation. The primary goal of the system is to provide personalized mood predictions based on these activities, helping users gain insights into how their lifestyle choices impact their emotional state.
 By logging data such as the number of hours slept, the type and duration of exercise, and time spent meditating, the system analyzes patterns in the user’s behavior and predicts their mood. This allows users to take proactive steps toward improving their mental and physical health. In terms of supporting the organization’s mission, this system aligns with the goal of promoting health and well-being. It empowers users to track and adjust their daily habits, encouraging healthier lifestyles. 
+
 Included Features:
 User Registration & Login: Users can create an account or log into an existing one using a username and password.
 Data Entry for Mood Prediction: Once logged in, users can input data about their sleep hours, exercise minutes, exercise type and intensity, and meditation minutes.
 Mood Prediction: Based on the entered data, the system predicts the user's mood (e.g., "Happy", "Stressed", "Calm", etc.).
 Data Persistence: The system stores user data, such as login credentials and daily data (sleep, exercise, meditation), in a local JSON file.
 Error Handling: The system ensures that inputs are valid (e.g., no negative numbers or invalid data), and provides error messages if incorrect data is entered.
+
 Excluded Features:
 Social Features: The system does not include features like social interaction, sharing of data, or interaction with other users.
 Advanced Mood Analysis: Mood prediction is based on simple conditions, and it does not analyze complex psychological data or provide in-depth mental health insights.
 Real-time Data Sync: Data is saved locally and is not synchronized across devices or users.
 Customizable User Profiles: The system does not allow for extensive customization of user profiles, such as avatars or personalized settings beyond the basic login credentials.
+
 Target Users:
 General Users: Individuals looking to track and predict their mood based on their daily health and wellness activities, such as students, employees, or anyone interested in understanding how sleep, exercise, and meditation affect their mood.
 New Users: People who may be unfamiliar with mood-tracking applications and prefer a straightforward, easy-to-use interface to track their daily health metrics.
